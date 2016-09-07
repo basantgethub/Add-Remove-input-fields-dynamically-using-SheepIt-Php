@@ -31,7 +31,7 @@ $(document).ready(function() {
                             submit: 1
 			};
 		
-		var url = <?php print "'".$this->appUrls['BRAND_NOTIFICATION_DISPLAY_ICON_URL']."'";?>;
+		var url = <?php print "'".$this->appUrls['XYZ_URL']."'";?>;
 		customAjaxCall(url, data, editAdvResponse);
 		return false; 
 	  });
